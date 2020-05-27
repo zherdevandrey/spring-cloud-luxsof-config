@@ -8,3 +8,9 @@ eureka:
 test:
   cloud:
     conf: testSuccess
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream,beans,health,routes,httptrace,bus-refresh
