@@ -7,7 +7,7 @@ eureka:
 
 test:
   cloud:
-    conf: testSuccessCompleted
+    conf: testSuccess
 
 management:
   endpoints:
