@@ -16,6 +16,9 @@ management:
         include: hystrix.stream,beans,health,routes,httptrace,bus-refresh
 
 spring:
+  cloud:
+    bus:
+      enabled: true
   rabbitmq:
     host: localhost
     port: 5672
